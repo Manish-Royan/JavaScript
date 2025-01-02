@@ -10,7 +10,7 @@ The primary goal of this repository is to enhance my *`JavaScript`* skills by ap
 
 ### Project Highlights:
 
-1. News Article Pop-up: Design a dynamic pop-up to showcase news articles, enhancing user interaction on your website.
+1. [News Article Pop-up](https://github.com/Manish-Royan/JavaScript/tree/main/20%20DAYS%20WITH%2020%20PROJECTS%20IN%20JS/%5BPROJECT-1%5D%20News%20Letter%20Application): Design a dynamic pop-up to showcase news articles, enhancing user interaction on your website.
 
 
 ## Reference
