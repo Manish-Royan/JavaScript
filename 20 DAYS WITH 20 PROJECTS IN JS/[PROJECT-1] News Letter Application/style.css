@@ -1,0 +1,120 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #7c3af8;
+    height: 100vh; /* this actually moves the content to the center of the browser */
+ 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    font-family: 'Times New Roman', Times, serif;
+}
+
+/* Subscribe Section Styling Starts */
+.button {
+    background-color: #fff;
+    padding: 15px 20px;
+    border-radius: 4px;
+    
+    
+    color: #5c4800;
+    font-size: 1.5rem;
+    text-decoration: none;
+
+    display: inline-block;
+    position: relative;
+
+    cursor: pointer;
+
+    transition: 0.5s;
+}
+
+.button:hover {
+    letter-spacing: 0.1rem;
+}
+
+/* Subscribe Section Styling Ends */
+
+
+/* News Letter Signup Section Starts*/
+#newsletter {
+    position: fixed;
+    top: -100%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    /* Style for Layout of News Letter */
+    background-color: #fff;
+    width: 450px;
+    padding: 80px 50px 50px;
+    z-index: 1000;
+
+    transition: 0.8s;
+    border-radius: 4px;
+    visibility: hidden;
+}
+
+#newsletter.active
+{
+    visibility: visible;
+    top: 50%;
+}
+
+#newsletter h2 {
+    margin: 20px 10px;
+    text-align: center;
+    color: #5c4800;
+    font-style: 24px;
+}
+
+#newsletter p {
+    text-align: center;
+    color: #5c4800;
+}
+
+#newsletter .box {
+    position: relative;
+    width: 100%;
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+    /* input section start */
+input, button {
+    width: 100%;
+    padding: 15px;
+
+    border: 1px solid rgb(0, 0, 0, 0.1);
+    outline: none;
+
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1rem;
+}
+
+button {
+    width: 150px;
+    border: none;
+
+    background-color: #7c3af8;
+    color: #ffffff;
+    letter-spacing: 0.1rem;
+
+    cursor: pointer;
+}
+
+    /* Close Icon */
+.close {
+    position: absolute;
+    top: 15px;
+    right: 20px;
+    cursor: pointer;
+}
+
+/* News Letter Signup Section Ends* /
