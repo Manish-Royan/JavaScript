@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Changer Application</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <div class="container">
+        <h1>Change the below image! With the help of the Sliders</h1>
+        <span class="heading">JavaScript</span>
+
+        <!-- CSS Controller Section -->
+        <!-- Slider Section -->
+        <div class="css-controller">
+            <!-- COLOR PICKER -->
+            <label for="base">Base Color</label>
+            <input type="color" name="base" id="base" value="#ff0000">
+
+            <!-- Width Slider -->
+            <label for="width">Width</label>
+            <input type="range" name="width" id="width" min="0" max="100" value="50" data-sizing = "%"> <!-- (data-sizing) image width is altered in percentage -->
+
+            <!-- Border-Radius Slider -->
+            <label for="border">Border-Radius</label>
+            <input type="range" name="border-radius" id="border-radius" min="0" max="100" value="5" data-sizing = "px"> <!-- (data-sizing) image border-radius is altered in pixel -->
+
+            <!-- Padding Slider -->
+            <label for="border">Padding</label>
+            <input type="range" name="padding" id="padding" min="10" max="200" value="0" data-sizing = "px"> <!-- the image padding data sized in pixels -->
+
+            <!-- Blur Slider -->
+            <label for="border">Blur</label>
+            <input type="range" name="blur" id="blur" min="0" max="25" value="0" data-sizing = "px"> <!-- the image padding data sized in pixels -->
+        </div>
+
+        <!-- IMAGE SECTION -->
+         <img src="https://cdn.pixabay.com/photo/2024/12/30/13/06/moped-9300285_640.jpg" alt="img"><!-- For image, visit: https://pixabay.com -->
+
+    </div>
+
+</body>
+<script src="script.js"></script>
+</html>
