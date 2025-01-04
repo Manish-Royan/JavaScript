@@ -14,6 +14,7 @@ The primary goal of this repository is to enhance my *`JavaScript`* skills by ap
 ![ezgif-5-5a308e6569](https://github.com/user-attachments/assets/83fe1cd2-0120-4050-a344-24eeeeecaa98)
 
 2. [CSS Changer](https://github.com/Manish-Royan/JavaScript/tree/main/20%20DAYS%20WITH%2020%20PROJECTS%20IN%20JS/%5BPROJECT-2%5D%20CSS%20CHANGER): Dynamically change CSS styles with JavaScript, creating a customizable user interface.
+![Screen Recording 2025-01-04 132223 (1)](https://github.com/user-attachments/assets/68a96637-71de-41ec-8173-d21e78baa55f)
 
 
 ## ▸ Reference
